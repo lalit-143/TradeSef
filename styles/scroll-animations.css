@@ -1,0 +1,45 @@
+/* Fast and accurate scroll/entrance animations */
+.animate-slide-in-left-fast {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: slideInLeftFast 0.32s cubic-bezier(0.7,0.2,0.2,1) forwards;
+}
+.animate-slide-in-right-fast {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: slideInRightFast 0.32s cubic-bezier(0.7,0.2,0.2,1) forwards;
+}
+.animate-slide-in-up-fast {
+  opacity: 0;
+  transform: translateY(32px);
+  animation: slideInUpFast 0.32s cubic-bezier(0.7,0.2,0.2,1) forwards;
+}
+.animate-fade-in-up-fast {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeInUpFast 0.32s cubic-bezier(0.7,0.2,0.2,1) forwards;
+}
+@keyframes slideInLeftFast {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slideInRightFast {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slideInUpFast {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUpFast {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
